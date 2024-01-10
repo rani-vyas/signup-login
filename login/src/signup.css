@@ -1,0 +1,52 @@
+body{
+    background-color:rgb(177, 146, 207);
+}
+#heading-div h1{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 0%;
+    background-color: aliceblue;
+}
+#heading-div{  
+    margin-bottom: 15%;
+    font-size: 2rem;
+}
+.admin-div{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display:block;
+    align-items: center;
+    width: 30%;
+    padding: 5%;
+    background-color: rgb(250, 249, 252);
+}
+.input-class{
+    padding: 15px; 
+    border: none; 
+    background-color: darkgray;
+    border-radius: 10px;
+}
+#btn-id{
+    padding: 15px;
+    background-color: rgb(246, 218, 237);
+    border: none;
+    border-radius: 35px; 
+}
+#btn-id:hover{
+    background-color: rgb(231, 53 ,178);
+}
+/*#label-checkbox{
+    border: 1px solid black;
+    margin-top: 10px;
+}*/
+.checkbox-div{
+    border: 1px solid black;
+    color: black;
+}
+.checkbox-div #label-checkbox{
+   background-color: aliceblue;
+    
+}
