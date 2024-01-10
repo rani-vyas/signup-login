@@ -25,7 +25,6 @@ const userNavigate = useNavigate()
         e.preventDefault();
 
         try{
-            debugger;
             const logindata = await axios({
                     'url':'http://127.0.0.1:8000/login/',
                     'method' : 'POST',
@@ -39,7 +38,7 @@ const userNavigate = useNavigate()
             console.log(token)
             if(token){
                 localStorage.setItem('token',token)
-                userNavigate('/category')
+                userNavigate('/page')
                 setmessage('user Successfully login.')
             }
             else{
@@ -119,8 +118,7 @@ const userNavigate = useNavigate()
           }
         }
          const handleCheckpassword = () =>{
-         // debugger
-        // let passwordRegexp = /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*]).{8,}$/;
+         
          if(!password){
             setPasswordError('This field is required.')
         }
